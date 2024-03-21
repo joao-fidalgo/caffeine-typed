@@ -8,7 +8,7 @@
     "clean": "rimraf dist/*"
   },
   "devDependencies": {
-    "@joao-fidalgo/caffeine-types": "1.0.0",
+    "@joao-fidalgo/caffeine-types": "1.0.1",
     "@types/node": "18.16.18",
     "@typescript-eslint/eslint-plugin": "5.59.11",
     "@typescript-eslint/parser": "5.59.11",

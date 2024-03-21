@@ -17,6 +17,7 @@ AutoAttack.Condition('attack', (self) => !IsCurrentSpell(self.GetID()));
 AutoAttack.OnCast(() => Caffeine.Print('Casting Auto Attack'));
 
 Module.Sync(() => {
+  Caffeine.Print('test');
   AutoAttack.Cast(Target);
 });
 
