@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "lib": ["ESNext"],
+    "types": [
+      "@joao-fidalgo/caffeine-types",
+      "@typescript-to-lua/language-extensions",
+      "lua-types/5.1",
+    ],
+    "outDir": "./dist",
+    "strict": true
+  },
+  "tstl": {
+    "noHeader": true,
+    "noImplicitSelf": true,
+    "noImplicitGlobalVariables": true,
+    "luaTarget": "5.1",
+    "luaLibImport": "require",
+    "luaPlugins": [
+      // Inject Unlocker, Caffeine, project
+      { "name": "./plugins/inject.ts" },
+      // Handle lua require to Caffeine env
+      { "name": "./plugins/require.ts" },
+    ]
+  },
+  "exclude": ["plugins/**/*", "node_modules/**/*", "dist/**/*"]
+}
