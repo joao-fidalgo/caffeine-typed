@@ -1,0 +1,7 @@
+{
+  "order": [
+    "warrior/fury/gui",
+    "warrior/fury/spells",
+    "warrior/fury/rotation"
+  ]
+}

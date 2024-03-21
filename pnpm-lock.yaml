@@ -2,8 +2,8 @@ lockfileVersion: '6.0'
 
 devDependencies:
   '@joao-fidalgo/caffeine-types':
-    specifier: 1.0.1
-    version: 1.0.1(@types/node@18.16.18)
+    specifier: 1.0.3
+    version: 1.0.3(@types/node@18.16.18)
   '@types/node':
     specifier: 18.16.18
     version: 18.16.18
@@ -128,8 +128,8 @@ packages:
       wrap-ansi-cjs: /wrap-ansi@7.0.0
     dev: true
 
-  /@joao-fidalgo/caffeine-types@1.0.1(@types/node@18.16.18):
-    resolution: {integrity: sha512-h6xQMGAXM5UlsbPPY/WUYEJrMI/AP8TGGJBV8oq6Lk4pUFJqNLW0AiNX4N2MY8sQRWMuZQomCdxEN6vEZJDa+w==}
+  /@joao-fidalgo/caffeine-types@1.0.3(@types/node@18.16.18):
+    resolution: {integrity: sha512-ZsRdtbwGkZFziEDcsO4GfivgVcAvKIIuP9mh2vwR/YwNNYrhpjSDrwHoMWIwFv3GD6kUjyqgRIV82iC9jjqK3g==}
     dependencies:
       '@typescript-to-lua/language-extensions': 1.0.0
       lua-types: 2.13.1
